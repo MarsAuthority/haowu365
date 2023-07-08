@@ -12,7 +12,9 @@ const config = {
   plugins: [
     require.resolve('docusaurus-lunr-search'),
     [ '@docusaurus/plugin-content-docs',
-      { id: 'meizhuang', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), },
+      [{ id: 'meizhuang', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), },
+      { id: 'gehu', path: '个护健康', routeBasePath: '个护健康', sidebarPath: require.resolve('./sidebars.js'), },
+    ],
     ],
   ],
   baseUrl: '/',
@@ -69,6 +71,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/个护健康', label: '个护健康', position: 'left'},
           { to: '/美妆护肤', label: '美妆护肤', position: 'left'},
         ],
       },
