@@ -6,9 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '好物365 | 精选·评测·推荐',
+  tagline: '第三方公平公正的好物推荐测评平台！',
   url: 'https://your-docusaurus-test-site.com',
+  plugins: [require.resolve('docusaurus-lunr-search')],
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,9 +58,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '首页',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Index Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,7 +68,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '个护健康',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
