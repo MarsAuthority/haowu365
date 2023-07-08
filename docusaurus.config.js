@@ -70,6 +70,12 @@ const config = {
             position: 'left',
             label: '个护健康',
           },
+          {
+            type: 'doc',
+            docId: '2',
+            position: 'left',
+            label: '美妆护肤',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
