@@ -11,9 +11,7 @@ const config = {
   url: 'https://your-docusaurus-test-site.com',
   plugins: [
     require.resolve('docusaurus-lunr-search'),
-    [ '@docusaurus/plugin-content-docs',
-      { id: 'meizhuang', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), },
-    ],
+    
   ],
   baseUrl: '/',
   onBrokenLinks: 'throw',
