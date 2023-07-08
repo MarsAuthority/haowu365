@@ -69,7 +69,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/个护健康', label: '美妆护肤', position: 'left'},
           { to: '/美妆护肤', label: '美妆护肤', position: 'left'},
         ],
       },
