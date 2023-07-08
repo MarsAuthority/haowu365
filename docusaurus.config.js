@@ -10,7 +10,7 @@ const config = {
   tagline: '第三方公平公正的好物推荐测评平台！',
   url: 'https://your-docusaurus-test-site.com',
   plugins: [require.resolve('docusaurus-lunr-search'),[ '@docusaurus/plugin-content-docs',
-  { id: 'meizhuang', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), }
+  { id: 'meizhuang', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), },{ id: 'gehu', path: '个护健康', routeBasePath: '个护健康', sidebarPath: require.resolve('./sidebars.js'), }
   ]],
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -72,6 +72,7 @@ const config = {
             position: 'left',
             label: '个护健康',
           },
+          { to: '/个护健康', label: '美妆护肤', position: 'left'},
           { to: '/美妆护肤', label: '美妆护肤', position: 'left'},
         ],
       },
