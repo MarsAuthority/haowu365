@@ -26,7 +26,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={}
+      title={``}
       description="精选·评测·推荐">
       <HomepageHeader />
       <main>
