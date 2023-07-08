@@ -9,7 +9,9 @@ const config = {
   title: '好物365 | 精选·评测·推荐',
   tagline: '第三方公平公正的好物推荐测评平台！',
   url: 'https://your-docusaurus-test-site.com',
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search'),[ '@docusaurus/plugin-content-docs',
+  { id: '美妆护肤', path: '美妆护肤', routeBasePath: '美妆护肤', sidebarPath: require.resolve('./sidebars.js'), }
+  ]],
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -70,12 +72,7 @@ const config = {
             position: 'left',
             label: '个护健康',
           },
-          {
-            type: 'doc',
-            docId: '2',
-            position: 'left',
-            label: '美妆护肤',
-          },
+          { to: '/美妆护肤', label: '美妆护肤', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
