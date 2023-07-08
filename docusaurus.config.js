@@ -66,9 +66,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '个护健康',
             position: 'left',
             label: '个护健康',
+          },
+          {
+            type: 'doc',
+            docId: '美妆护肤',
+            position: 'left',
+            label: '美妆护肤',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
