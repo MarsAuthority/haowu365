@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 好物365, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 好物365 . Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
