@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '好物365 | 精选·评测·推荐',
   tagline: '第三方公平公正的好物推荐测评平台！',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://haowu365.com',
   plugins: [
     require.resolve('docusaurus-lunr-search'),
     [ '@docusaurus/plugin-content-docs',
